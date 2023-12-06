@@ -3,11 +3,22 @@
 margin: 0;
 box-sizing: border-box;}
 
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project syles*/
+    color: #3a3a3a;  
+}
+
 /* Header*/
 header {background-color: lightcoral;}
 
 /*Main Content*/
-main {background-color: lightblue;}
+main {background-color: lightblue;
+/*maki main fill page*/
+display: 1 0 auto;}
 
 /*Footer*/
 footer {background-color: orange;}
