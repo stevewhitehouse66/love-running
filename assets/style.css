@@ -1,7 +1,12 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* set default styles*/
-* {padding: 0;
-margin: 0;
-box-sizing: border-box;}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /*General styles*/
 body {
@@ -9,16 +14,22 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project syles*/
-    color: #3a3a3a;  
+    color: #3a3a3a;
 }
 
 /* Header*/
-header {background-color: lightcoral;}
+header {
+    background-color: lightcoral;
+}
 
 /*Main Content*/
-main {background-color: lightblue;
-/*maki main fill page*/
-display: 1 0 auto;}
+main {
+    background-color: lightblue;
+    /*maki main fill page*/
+    flex: 1 0 auto;
+}
 
 /*Footer*/
-footer {background-color: orange;}
+footer {
+    background-color: orange;
+}
