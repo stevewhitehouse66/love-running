@@ -28,12 +28,12 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
     align-items: baseline;
 }
 header a {text-decoration: none;
     color: inherit;}
-#menu{ font-size: 110;
+#menu { font-size: 110;
     letter-spacing: 4px;
     list-style: none;
 }
@@ -67,9 +67,32 @@ main {
     background-color: lightblue;
     /*maki main fill page*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
 footer {
     background-color: orange;
+}
+
+/*Media Query Tablets and larger (768px and above)*/
+
+    
+@media screen and  (min-width: 768px) {
+    /*Header */ 
+    nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;}  
+    #menu {
+        display: flex;}
+    #menu > li {padding-left: 1em;}
+    .nav-toggle-label {display: none;}
+    logo {font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem}
+    /* Main content*/
+    main {margin-top: 75x;}
 }
