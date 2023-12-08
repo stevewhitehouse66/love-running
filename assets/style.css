@@ -148,7 +148,7 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Makes the square image into a circle */
+    /* Make the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -159,7 +159,12 @@ main {
     align-items: center;
     justify-content: center;
 }
-
+/* Gallery styles*/
+#photos img {width: 100%;
+    line-height: 1em;
+   }
+#photos {
+    line-height: 0;}
 /* Footer */
 #social-networks {
     text-align: center;
