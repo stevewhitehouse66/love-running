@@ -91,7 +91,7 @@ main {
     margin-top: 47px;
     flex: 1 0 auto;
     flex-direction: column;
-    
+
 }
 
 /* Hero section */
@@ -162,12 +162,17 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 /* Gallery styles*/
-#photos img {width: 100%;
+#photos img {
+    width: 100%;
     line-height: 1em;
-   }
+}
+
 #photos {
-    line-height: 0;}
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -185,7 +190,7 @@ main {
 
 /*Signup form*/
 
-#signup { 
+#signup {
     background: url('../assets/images/signup-image.webp');
     background-size: cover;
     background-position: 75%;
@@ -196,7 +201,7 @@ main {
 
 #signup-form {
     color: #fafafa;
-    background-color: rgba(60,60,60,0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 20px;
 }
 
@@ -227,9 +232,9 @@ main {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
-   font-size: 100%;
-   background-color: #454b1b;
-   color: #fafafa;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 
@@ -240,9 +245,10 @@ main {
 /* Media query:  larger or landscape phones (576px and up) */
 
 @media screen and (min-width: 576px) {
-#photos {
-    column-count: 2;
-column-gap: 0;}
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -304,15 +310,16 @@ column-gap: 0;}
         text-align: end;
         align-self: flex-end;
     }
-     /*Gallery*/
+
+    /*Gallery*/
     #photos {
         column-count: 3;
     }
 
 
-     /* Form */
-     
-     #signup {
+    /* Form */
+
+    #signup {
         background-position: center;
         position: relative;
     }
@@ -341,14 +348,15 @@ column-gap: 0;}
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -360,17 +368,17 @@ column-gap: 0;}
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
-    
+
     /*Gallery*/
     #photos {
         column-count: 4;
-   
+
     }
 }
