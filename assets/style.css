@@ -27,6 +27,7 @@ h3 {
     color: #252525;
 }
 
+
 .hidden-heading {
     display: none;
 }
@@ -344,7 +345,28 @@ main {
         color: #454b1b;
     }
 }
+/* Meet Up */
 
+#times {
+    background: url("../assets/images/dublin-city.webp") no-repeat  center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    width: 200px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px   solid white;
+}
+
+#times h3{
+    color: #fafafa;
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
